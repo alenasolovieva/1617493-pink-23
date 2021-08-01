@@ -1,134 +1,144 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Приложение "Пинк"</title>
-  </head>
-  <body class="page__body">
-    <header class="page-header">
-      <a class="page-header__logo">
-        <img src="img/logotype-mobile.svg" width="74" height="23" alt="Логотип «Пинк»">
-      </a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item">
-              <a>Главная</a>
+
+<head>
+  <meta charset="utf-8">
+  <title>Приложение "Пинк"</title>
+</head>
+
+<body class="page__body">
+  <header class="page-header">
+    <a class="page-header__logo">
+      <img src="img/logotype-mobile.svg" width="74" height="23" alt="Логотип «Пинк»">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a>Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="catalog.html">Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="intro__index">
+      <div class="intro__wrapper">
+        <h1 class="intro__tagline">Взгляните на жизнь иначе!</h1>
+        <div class="intro__download">
+          <a class="button__download" href="#">Скачать приложение</a>
+          <ul class="download__list">
+            <li class="download__item">
+              <a class="download__link download__link--apple" href="#">Apple</a>
             </li>
-            <li class="site-list__item">
-              <a href="catalog.html">Фотографии</a>
+            <li class="download__item">
+              <a class="download__link download__link--android" href="#">Android</a>
             </li>
-            <li class="site-list__item">
-              <a href="form.html">Конкурс</a>
-            </li>
-            <li class="site-list__item">
-              <a href="#">HTML Academy</a>
+            <li class="download__item">
+              <a class="download__link download__link--windows" href="#">Windows</a>
             </li>
           </ul>
+          <p class="download__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
         </div>
-      </nav>
-    </header>
-    <main class="page-main">
-      <section class="intro__index">
-        <div class="intro__wrapper">
-          <h1 class="intro__tagline">Взгляните на жизнь иначе!</h1>
-          <div class="intro__download">
-            <a class="button__download" href="#">Скачать приложение</a>
-            <ul class="download__list">
-              <li class="download__item">
-                <a class="download__link download__link--apple" href="#">Apple</a>
-              </li>
-              <li class="download__item">
-                <a class="download__link download__link--android" href="#">Android</a>
-              </li>
-              <li class="download__item">
-                <a class="download__link download__link--windows" href="#">Windows</a>
-              </li>
-            </ul>
-            <p class="download__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
-          </div>
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="advantages__wrapper">
+        <h2 class="visually-hidden">Преимущества приложения</h2>
+        <h2 class="advantages__slogan">Устали от серости<br>мегаполиса?</h2>
+        <h2 class="advantages__slogan">Нам есть, что вам<br>предложить!</h2>
+        <ul class="advantages__list">
+          <li class="advantages__item advantages__item--mood">
+            <h3 class="advantages__title">Поднимает настроение</h3>
+            <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в
+              несколько кликов!</p>
+          </li>
+          <li class="advantages__item advantages__item--peace">
+            <h3 class="advantages__title">Меняет мир вокруг</h3>
+            <p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы
+              усилить эффект</p>
+          </li>
+          <li class="advantages__item advantages__item--friends">
+            <h3 class="advantages__title">Заводит новых друзей</h3>
+            <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите
+              новых</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="effect">
+      <div class="effect__wrapper">
+        <h2 class="effect__title">Эффект на 24 часа!</h2>
+        <p class="effect__text">Британские ученые провели исследования и доказали, что положительный эффект от
+          использования приложения длится целые сутки!</p>
+        <a class="effect__link" href="#">Узнать больше об исследовании</a>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="reviews__wrapper slider">
+        <h2 class="visually-hidden">Отзывы</h2>
+        <div class="reviews__list slider__list">
+          <blockquote class="reviews__item slider__reviews">
+            <div class="reviews__author-info">
+              <cite class="reviews__author-name">Николай Петров</cite>
+              <p class="reviews__author-about">25 лет, водитель трамвая</p>
+              <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные
+                серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            </div>
+          </blockquote>
+          <blockquote class="reviews__item slider__reviews">
+            <div class="reviews__author-info">
+              <cite class="reviews__author-name">Иван Васильев</cite>
+              <p class="reviews__author-about">30 лет, разработчик</p>
+              <p class="reviews__text">«Здорово,супер,круто!»</p>
+            </div>
+          </blockquote>
+          <blockquote class="reviews__item slider__reviews">
+            <div class="reviews__author-info">
+              <cite class="reviews__author-name">Анна Дунина</cite>
+              <p class="reviews__author-about">17 лет, школьница</p>
+              <p class="reviews__text">«Мне понравилось!»</p>
+            </div>
+          </blockquote>
+          <button class="reviews__prev" type="button">Предыдущий отзыв</button>
+          <button class="reviews__next" type="button">Следующий отзыв</button>
         </div>
-      </section>
-      <section class="advantages">
-        <div class="advantages__wrapper">
-            <h2 class="visually-hidden">Преимущества приложения</h2>
-            <h2 class="advantages__slogan">Устали от серости<br>мегаполиса?</h2>
-            <h2 class="advantages__slogan">Нам есть, что вам<br>предложить!</h2>
-            <ul class="advantages__list">
-              <li class="advantages__item advantages__item--mood">
-                <h3 class="advantages__title">Поднимает настроение</h3>
-            <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
-              </li>
-              <li class="advantages__item advantages__item--peace">
-                <h3 class="advantages__title">Меняет мир вокруг</h3>
-            <p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
-              </li>
-              <li class="advantages__item advantages__item--friends">
-                <h3 class="advantages__title">Заводит новых друзей</h3>
-            <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
-              </li>
-            </ul>
-        </div>
-      </section>
-      <section class="effect">
-        <div class="effect__wrapper">
-          <h2 class="effect__title">Эффект на 24 часа!</h2>
-          <p class="effect__text">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
-          <a class="effect__link" href="#">Узнать больше об исследовании</a>
-        </div>
-      </section>
-      <section class="reviews">
-        <div class="reviews__wrapper slider">
-          <h2 class="visually-hidden">Отзывы</h2>
-          <div class="reviews__list slider__list">
-            <blockquote class="reviews__item slider__reviews">
-              <div class="reviews__author-info">
-                <cite class="reviews__author-name">Николай Петров</cite>
-                <p class="reviews__author-about">25 лет, водитель трамвая</p>
-                <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
-              </div>
-            </blockquote>
-            <blockquote class="reviews__item slider__reviews">
-              <div class="reviews__author-info">
-                <cite class="reviews__author-name">Иван Васильев</cite>
-                <p class="reviews__author-about">30 лет, разработчик</p>
-                <p class="reviews__text">«Здорово,супер,круто!»</p>
-              </div>
-            </blockquote>
-            <blockquote class="reviews__item slider__reviews">
-              <div class="reviews__author-info">
-                <cite class="reviews__author-name">Анна Дунина</cite>
-                <p class="reviews__author-about">17 лет, школьница</p>
-                <p class="reviews__text">«Мне понравилось!»</p>
-              </div>
-            </blockquote>
-            <button class="reviews__prev" type="button">Предыдущий отзыв</button>
-            <button class="reviews__next" type="button">Следующий отзыв</button>
-          </div>
-          <p class="reviews__toggles slider__toggles">
-        <button class="slider__toggle slider__toggle--current" type="button">1</button>
-        <button class="slider__toggle" type="button">2</button>
-        <button class="slider__toggle" type="button">3</button>
-          </p>
-        </div>
-      </section>
-      <div class="price">
-        <div class="price__wrapper">
-         <table class="price__table">
-           <tr class="price__header">
-             <th class="price__item price__item--empty"></th>
-             <th class="price__item">База<p>1,99 USD</p></th>
-             <th class="price__item price__item--hit">Стандарт<p>3,99 USD</p></th>
-             <th class="price__item">Анлим<p>9,99 USD</p></th>
-           </tr>
-           <tr class="price__body">
-             <td class="price__field price__field--empty">Розовый фильтр</td>
-             <td class="price__field price__field--yes">Да</td>
-             <td class="price__field price__field--yes">Да</td>
-             <td class="price__field price__field--yes">Да</td>
-           </tr>
-           <tr class="price__body">
+        <p class="reviews__toggles slider__toggles">
+          <button class="slider__toggle slider__toggle--current" type="button">1</button>
+          <button class="slider__toggle" type="button">2</button>
+          <button class="slider__toggle" type="button">3</button>
+        </p>
+      </div>
+    </section>
+    <div class="price">
+      <div class="price__wrapper">
+        <table class="price__table">
+          <tr class="price__header">
+            <th class="price__item price__item--empty"></th>
+            <th class="price__item">База<p>1,99 USD</p>
+            </th>
+            <th class="price__item price__item--hit">Стандарт<p>3,99 USD</p>
+            </th>
+            <th class="price__item">Анлим<p>9,99 USD</p>
+            </th>
+          </tr>
+          <tr class="price__body">
+            <td class="price__field price__field--empty">Розовый фильтр</td>
+            <td class="price__field price__field--yes">Да</td>
+            <td class="price__field price__field--yes">Да</td>
+            <td class="price__field price__field--yes">Да</td>
+          </tr>
+          <tr class="price__body">
             <td class="price__field price__field--empty">Смайлики</td>
             <td class="price__field price__field--no">Нет</td>
             <td class="price__field price__field--yes">Да</td>
@@ -140,21 +150,21 @@
             <td class="price__field price__field--no">Нет</td>
             <td class="price__field price__field--yes">Да</td>
           </tr>
-         </table>
-         <button class="price__prev" type="button">Предыдущая цена</button>
-         <button class="price__next" type="button">Следующая цена</button>
-         <p class="reviews__toggles slider__toggles">
+        </table>
+        <button class="price__prev" type="button">Предыдущая цена</button>
+        <button class="price__next" type="button">Следующая цена</button>
+        <p class="reviews__toggles slider__toggles">
           <button class="slider__toggle" type="button">1</button>
           <button class="slider__toggle slider__toggle--current" type="button">2</button>
           <button class="slider__toggle" type="button">3</button>
-        </div>
       </div>
-    </main>
-    <footer class="page-footer">
-      <div class="page-footer__wrapper">
-        <div class="page-footer__contacts contacts">
-          <h4 class="contacts__slogan">Остались вопросы?<br>Свяжитесь с нами!</h4>
-          <div class="page-footer__phone">
+    </div>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <div class="page-footer__contacts contacts">
+        <h4 class="contacts__slogan">Остались вопросы?<br>Свяжитесь с нами!</h4>
+        <div class="page-footer__phone">
           <b class="contacts__title">Звоните:</b>
           <a class="contacts__text" href="tel:+78125556666"> +7 (812) 555-66-66</a>
         </div>
@@ -188,11 +198,12 @@
         <div class="page-footer__copyright">
           <b class="copyright__text">Разработано</b>
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-          <span class="visually-hidden">Копирайт академии</span>
+            <span class="visually-hidden">Копирайт академии</span>
           </a>
         </div>
       </div>
-      </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
