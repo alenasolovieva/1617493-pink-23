@@ -32,11 +32,11 @@
     </nav>
   </header>
   <main class="page-main">
-    <section class="intro__index">
-      <div class="intro__wrapper">
-        <h1 class="intro__tagline">Взгляните на жизнь иначе!</h1>
-        <div class="intro__download">
-          <a class="button__download" href="#">Скачать приложение</a>
+    <section class="intro-index">
+      <div class="intro-index__wrapper">
+        <h1 class="intro-index__tagline">Взгляните на жизнь иначе!</h1>
+        <div class="download">
+          <a class="download__button" href="#">Скачать приложение</a>
           <ul class="download__list">
             <li class="download__item">
               <a class="download__link download__link--apple" href="#">Apple</a>
@@ -121,15 +121,15 @@
       </div>
     </section>
     <div class="price">
-      <div class="price__wrapper">
+      <div class="price__wrapper slider">
         <table class="price__table">
           <tr class="price__header">
             <th class="price__item price__item--empty"></th>
-            <th class="price__item">База<p>1,99 USD</p>
+            <th class="price__item">База<span>1,99 USD</span>
             </th>
-            <th class="price__item price__item--hit">Стандарт<p>3,99 USD</p>
+            <th class="price__item price__item--hit">Стандарт<span>3,99 USD</span>
             </th>
-            <th class="price__item">Анлим<p>9,99 USD</p>
+            <th class="price__item">Анлим<span>9,99 USD</span>
             </th>
           </tr>
           <tr class="price__body">
@@ -153,10 +153,11 @@
         </table>
         <button class="price__prev" type="button">Предыдущая цена</button>
         <button class="price__next" type="button">Следующая цена</button>
-        <p class="reviews__toggles slider__toggles">
+        <p class="price__toggles slider__toggles">
           <button class="slider__toggle" type="button">1</button>
           <button class="slider__toggle slider__toggle--current" type="button">2</button>
           <button class="slider__toggle" type="button">3</button>
+        </p>
       </div>
     </div>
   </main>
@@ -165,15 +166,15 @@
       <div class="page-footer__contacts contacts">
         <h4 class="contacts__slogan">Остались вопросы?<br>Свяжитесь с нами!</h4>
         <div class="page-footer__phone">
-          <b class="contacts__title">Звоните:</b>
+          <p class="contacts__title">Звоните:</p>
           <a class="contacts__text" href="tel:+78125556666"> +7 (812) 555-66-66</a>
         </div>
         <div class="page-footer__address">
-          <b class="contacts__title">Приезжайте в гости:</b>
+          <p class="contacts__title">Приезжайте в гости:</p>
           <p class="contacts__text">ул. Большая Конюшенная, 19/8</p>
         </div>
         <div class="page-footer__mail">
-          <b class="contacts__title">Пишите:</b>
+          <p class="contacts__title">Пишите:</p>
           <p class="contacts__text">mail@htmlacademy.ru</p>
         </div>
         <div class="page-footer__map">
@@ -195,8 +196,8 @@
             </li>
           </ul>
         </div>
-        <div class="page-footer__copyright">
-          <b class="copyright__text">Разработано</b>
+        <div class="page-footer__copyright copyright">
+          <p class="copyright__text">Разработано</p>
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
             <span class="visually-hidden">Копирайт академии</span>
           </a>
